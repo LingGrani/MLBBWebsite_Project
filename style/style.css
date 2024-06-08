@@ -1,0 +1,128 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right top, rgb(35, 35, 35), rgb(69, 69, 69));
+}
+.Judul_Atas {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    position: sticky;
+    position: -webkit-sticky;
+    background: linear-gradient(to left top, rgb(17, 17, 17), rgb(44, 44, 44));
+}
+.Logo a {
+    color: aliceblue;
+    font-size: 60px;
+    padding-left: 170px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Menu {
+    float: right;
+    padding-right: 170px;
+}
+nav {
+    width: 100%;
+    display: flex;
+    line-height: 90px;
+    position: sticky;
+    position: -webkit-sticky;
+}
+.Menu ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.Menu ul li {
+    float: left;
+}
+.Menu ul li a {
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+}
+section ul {
+    display: flex;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+section ul li {
+    list-style: none;
+    color: aliceblue;
+    background: linear-gradient(to left top, rgb(17, 17, 17), rgb(44, 44, 44));
+    padding: 5px 10px;
+    width: fit-content;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-style: unset;
+    font-weight: bold;
+    position: relative;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+section ul li:hover {
+    background: linear-gradient(to left top, rgb(131, 143, 203),rgb(35, 60, 218));
+    color: black;
+}
+section ul li.active {
+    background: linear-gradient(to left top, rgb(131, 143, 203),rgb(35, 60, 218));
+    color: black;
+}
+.hero{
+    display: flex;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 10px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+.hero_card {
+    display: block;
+    position: relative;
+    width: 240px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.hero img{
+    width: 100%;
+    display: flex;
+}
+.hero h2 {
+    position: absolute;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    font-size: 25px;
+    width: 100%;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.598);
+}
+.hero_card:hover {
+    transform: scale(1.2);
+}
+.hero_card:hover h2{
+    opacity: 0%;
+}
