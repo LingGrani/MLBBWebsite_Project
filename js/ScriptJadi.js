@@ -7,11 +7,7 @@ let htmlStringHero = "";
 for (let i = 0; i < NamaHero.length; i++) {
   htmlStringHero += `<div class="hero_card" data-category="${RoleHero[i]}">
   <a href="#">
-<<<<<<< HEAD
   <img src = "../img/hero/hero (${i + 1}).webp">
-=======
-  <img src = "../img/hero/Hero (${i + 1}).webp">
->>>>>>> 81bb4ea58260cd6f8574c913ff9e57bb9ad372d9
   <h2>${NamaHero[i]}</h2></a>
   </div>`;
 }
